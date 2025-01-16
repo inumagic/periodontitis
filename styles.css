@@ -1,0 +1,102 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding-top: 20px;
+}
+
+header {
+    background-color: #400c50;
+    color: white;
+    padding: 10px 0;
+    border-radius: 0.3rem;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 20px;
+}
+
+header p {
+    color: #bce0fd;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0.3rem;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+}
+    
+body h1{
+    color: #400c50;
+    text-align: center;
+}
+
+iframe {
+    display: inline-block; /* 使iframe表现为内联块级元素 */
+    margin: auto; /* 水平自动外边距实现居中 */
+}
+
+section h2 {
+    color: #400c50;
+   text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 0.3rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#b {
+    display: block; /* 將超連接設置為塊級元素 */
+    text-align: center; /* 現在這個屬性會影響內部的文字 */
+    margin: auto; /* 水平居中整個超連接 */
+    color: #007bff;
+}
+
+#c {
+    display: block; /* 将按钮设置为块级元素 */
+    margin-left: auto; /* 左边距自动 */
+    margin-right: auto; /* 右边距自动 */
+    text-align: center; /* 文本居中，适用于按钮内的文本对齐 */
+}
