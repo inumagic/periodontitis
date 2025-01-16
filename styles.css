@@ -24,7 +24,7 @@ header p {
 }
 
 section {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 0.3rem;
     margin-bottom: 20px;
@@ -45,6 +45,10 @@ iframe {
 section h2 {
     color: #400c50;
    text-align: center;
+}
+
+section p{
+    font-size: 1.5rem;
 }
 
 ul {
@@ -99,4 +103,13 @@ button:hover {
     margin-left: auto; /* 左边距自动 */
     margin-right: auto; /* 右边距自动 */
     text-align: center; /* 文本居中，适用于按钮内的文本对齐 */
+}
+
+.answer{
+    display: none;
+}
+
+.question{
+    font-weight: bold;
+    font-size: 1.5rem;
 }
