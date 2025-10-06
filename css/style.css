@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #5DADE2;
-    --light: #EFF5FF;
-    --dark: #1B2C51;
+    --primary: #a687af;
+    --light: #d9c5de;
+    --dark: #400c50;
 }
 
 .fw-medium {
@@ -237,7 +237,7 @@
 }
 
 .page-header {
-    background: url(../img/ia-background.png) top center no-repeat;
+    background: url(../) top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
@@ -250,9 +250,13 @@
 
 .news-text h4{
     padding-left: 0.5rem;
-
-
 }
+
+.news-text h5{
+    font-size: 1.5rem;
+}
+
+
 
 .news-text p{
     font-size: 1.3rem;
